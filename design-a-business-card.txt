@@ -1,0 +1,84 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8">
+    <title>Business Card</title>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="business-card"
+<main>
+    <img src="https://i.pinimg.com/736x/ea/a7/c4/eaa7c4041a82ea2e926dd76ac1258768.jpg" alt="Website logo" class="profile-image">
+    <p class="full-name">Joachim Ngoy</p>
+    <p class="designation">CEO/Software Engineer</p>
+    <p class="company">CodeLab Blueprints</p>
+    <hr>
+    <p>ngoyjoachim036@gmail.com</p>
+    <p>(717) 550-1675</p>
+   <a href="https://www.webador.co.uk/website-landing?ga%5Bcampaign%5D=287608829&ga%5Badgroup%5D=1249045693310134&ga%5Bnetwork%5D=o&ga%5Bposition%5D=&ga%5Bkw%5D=create%20portfolio%20website&ga%5Bcreative%5D=&msclkid=9f000680950b117c22636e270795ffe3&utm_source=bing&utm_medium=cpc&utm_campaign=%5BGB%5D%20%5Bleads%5D%20%5BCPC%5D&utm_term=create%20portfolio%20website&utm_content=%5Bwebsite%5D%20%5Bcreate%5D%20%5B-free%5D" target="_blank">Portfolio</a>
+<hr>
+    <div class="social-media">
+        <h2>Connect with me</h2>
+        <a href="https://x.com/JoachimNgo36573">Twitter</a>
+        <a href="https://www.linkedin.com/in/joachim-ngoy-a3a231364/">LinkedIn</a>
+        <a href="https://github.com/jojogojetters44">GitHub</a>
+</main>
+</div>
+</body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+body{
+  background-color: rosybrown;
+  font-family: Arial, sans-serif;
+}
+
+p {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.business-card {
+  width: 300px;
+  background-color: grey;
+  padding: 20px;
+  margin-top: 100px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+}
+
+.profile-image{
+  max-width: 100%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color:black;
+}
+
+a:hover {
+  color: black;
+}
+
+a:active {
+  color: black
+}
+
+.social-media {
+  display: inline-block;
+}
+
+** end of styles.css **
+
